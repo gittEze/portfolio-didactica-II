@@ -35,7 +35,7 @@ taskButtons.forEach((button) => {
         e.preventDefault();
 
         // Scroll arriba instantáneo
-        window.scrollTo(0, 0);
+        //window.scrollTo(0, 0);
 
         // Obtener datos
         const title = button.dataset.title;
@@ -79,7 +79,7 @@ taskButtons.forEach((button) => {
                 backButtonContainer.classList.add("visible");
 
                 // Mantener arriba
-                window.scrollTo(0, 0);
+                //window.scrollTo(0, 0);
 
             });
 
