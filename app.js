@@ -96,7 +96,7 @@ taskButtons.forEach((button) => {
 function goBack() {
 
     // Scroll arriba instantáneo
-    window.scrollTo(0, 0);
+    //window.scrollTo(0, 0);
 
     // Ocultar visor
     contentWrapper.classList.remove("show");
@@ -136,7 +136,7 @@ function goBack() {
             backButtonContainer.classList.remove("visible");
 
             // Mantener arriba
-            window.scrollTo(0, 0);
+            //window.scrollTo(0, 0);
 
         });
 
